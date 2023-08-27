@@ -18,6 +18,7 @@
 #include <assert.h>
 #include <unistd.h>
 #include <string.h>
+#include <sys/select.h>
 
 #include "daemon.h"
 #include "serversock.h"
